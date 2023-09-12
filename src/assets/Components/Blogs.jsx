@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Blog from "./Blog";
+
 const Blogs = ({BookMarkHandleClick,handleReadingTime}) => {
 
       // use sate for storing blog data
@@ -32,5 +33,7 @@ const Blogs = ({BookMarkHandleClick,handleReadingTime}) => {
             </div>
       );
 };
+
+
 
 export default Blogs;

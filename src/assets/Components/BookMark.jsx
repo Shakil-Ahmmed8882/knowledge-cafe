@@ -6,8 +6,6 @@ const BookMark = ({bookMark}) =>{
 
             const {title} = bookMark;
 
-            console.log(bookMark)
-
             return (
                   <div className='bg-white rounded-xl m-3 p-3'>
 

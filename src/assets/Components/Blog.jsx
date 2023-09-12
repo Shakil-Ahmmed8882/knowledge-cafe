@@ -21,7 +21,7 @@ const Blog = ({ blog,BookMarkHandleClick,handleReadingTime}) => {
         </div>
         <div className='flex gap-3 px-1 items-center'>
             <p>{reading_time} min read</p>
-            <FaBookmark onClick={()=>{BookMarkHandleClick(blog)}} className='text-2xl text-green-600'/>
+            <FaBookmark onClick={()=>{BookMarkHandleClick(blog,id)}} className='text-2xl cursor-pointer text-green-600'/>
         </div>
       </div>
       <div className='px-2'>
